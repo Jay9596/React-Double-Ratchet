@@ -1,0 +1,31 @@
+{
+  "name": "react-client",
+  "version": "0.0.1",
+  "description": "A demo react client application",
+  "main": "index.ts",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html --no-source-maps",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jay Shah (Jay9596)",
+  "license": "MIT",
+  "dependencies": {
+    "2key-ratchet": "^1.0.18",
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "bn.js": "^5.1.2",
+    "crypto-js": "^4.0.0",
+    "elliptic": "^6.5.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.9.7"
+  }
+}
