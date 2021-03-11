@@ -16,7 +16,7 @@
     "bcryptjs": "^2.4.3",
     "bn.js": "^5.1.2",
     "crypto-js": "^4.0.0",
-    "elliptic": "^6.5.3",
+    "elliptic": "^6.5.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
